@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background: white;
+}
+
+.services {
+    width: 100%;
+    background-image: url(/svgs/servises-baner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.service-child {
+    width: 95%;
+}
+
+.service-heading {
+    font-family: Raleway;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    padding: 5rem 0;
+}
+
+/* Our Services */
+.our-services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.our-services-child {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.our-services-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6A1B9A;
+    font-family: mon;
+    gap: 1rem;
+}
+
+.our-services-heading h5 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.our-services-heading h1 {
+    font-size: 60px;
+}
+
+.our-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-card-1 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+.our-card-h1 {
+    color: #6A1B9A;
+    font-family: mon;
+
+}
+.our-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-card-p {
+    color: #707070;
+    font-family: mon;
+
+}
+
+.our-button {
+    background: white;
+    color: #6A1B9A;
+    border: 1px solid #6A1B9A;
+    border-radius: 10px;
+    padding: 12px 32px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+    .services {
+        width: 100%;
+        background-image: url(/svgs/servises-baner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .service-heading {
+        font-size: 20px;
+        padding: 5rem 0;
+    }
+
+    /* section end */
+
+    .our-services {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .our-services-child {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 0 3rem;
+    }
+    
+    .our-services-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .our-services-heading h5 {
+        font-size: 31px;
+        font-weight: 300;
+    }
+    
+    .our-services-heading h1 {
+        font-size: 42px;
+    }
+    
+    .our-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our-card-1 {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+    .our-card-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-card-h1 {
+        font-size: 23px;
+    
+    }
+    
+    .our-card-p {
+    font-size: 11px;
+    }
+    
+    .our-button {
+      display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .services {
+        width: 100%;
+        background-image: url(/svgs/servises-baner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .service-heading {
+        font-size: 20px;
+        padding: 5rem 0;
+    }
+
+    /* section end */
+
+    .our-services {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .our-services-child {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 0 3rem;
+    }
+    
+    .our-services-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .our-services-heading h5 {
+        font-size: 31px;
+        font-weight: 300;
+    }
+    
+    .our-services-heading h1 {
+        font-size: 42px;
+    }
+    
+    .our-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our-card-1 {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 1rem 1rem;
+    }
+    .our-card-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .our-card-h1 {
+        font-size: 23px;
+    
+    }
+    
+    .our-card-p {
+    font-size: 11px;
+    }
+    
+    .our-button {
+      display: none;
+    }
+
+}

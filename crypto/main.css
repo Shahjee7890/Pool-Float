@@ -1,0 +1,1184 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/font/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: mon;
+    src: url(/font/Montserrat-VariableFont_wght.ttf);
+}
+
+/* header of crypto legal panama */
+.header {
+    width: 100%;
+    font-family: lato;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.header-logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.header-child {
+    width: 95%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-content {
+    font-family: lato;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.header-list {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-button {
+    background: #6A1B9A;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    padding: 12px 20px;
+}
+
+/*WELCOME TO CRYPTOLEGAL PANAMA */
+.cryptolegal {
+    width: 100%;
+    height: 130vh;
+    background-image: url(/svgs/Banner\ \(1\).svg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cryptolegal-chlid {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cryptolegal-h3 {
+    font-size: 36px;
+    font-family: lato;
+    font-weight: 300;
+
+}
+
+.cryptolegal-wow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cryptolegal-h1 {
+    display: flex;
+    color: white;
+    font-size: 37px;
+    width: 80%;
+    font-family: 'Raleway';
+
+}
+
+.cryptocurrency-button-parrent {
+    display: flex;
+    gap: 2rem;
+    border-style: none;
+}
+
+.cryptolegal-buttons {
+    font-family: lato;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border-color: 1px solid #6A1B9A;
+    padding: 12px 20px;
+
+}
+
+.cryptolegal-button {
+    font-family: lato;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border-color: 1px solid #6A1B9A;
+    padding: 12px 20px;
+
+}
+
+
+.cryptolegal-buttons:hover,
+.cryptolegal-buttons:active {
+    background-color: #6A1B9A;
+}
+
+/*  Blockchain & Cryptocurrency Legislation */
+.Cryptocurrency {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Cryptocurrency-chlid {
+    width: 95%;
+    padding: 5rem 0;
+}
+
+.cryptocurrency-div {
+    display: flex;
+}
+
+.cryptolegal-image {
+    width: 90%;
+}
+
+.cryptocurrency-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+
+}
+
+.cryptocurrency-h2 {
+    width: 60%;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.cryptocurrency-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cryptocurrency-button {
+    background: white;
+    color: #6A1B9A;
+    border-radius: 10px;
+    padding: 12px 20px;
+
+}
+
+/* Our Services Your Best Choice About Us CryptoLegal Panama  */
+.panama {
+    width: 100%;
+    display: flex;
+
+}
+
+.panama-child {
+    background-image: url(svgs/panama.svg);
+    background-size: cover;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5rem 2rem 5rem 2rem;
+}
+
+.panama-headings {
+    color: white;
+    font-family: Raleway;
+
+}
+
+.panama-main-h4 {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.panama-main-h1 {
+    font-size: 60px;
+}
+
+.panama-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.panama-c1 {
+    padding: 20px;
+    font-family: lato;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.panama-card-desc {
+    font-size: 10px;
+}
+
+.card-button {
+    background: #828282;
+    border-radius: 12px;
+    padding: 10px 13px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.panama-content {
+    font-family: Raleway;
+    width: 35%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: #6A1B9A;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.panama-card-heading h1 {
+    font-size: 15px;
+}
+
+.panama-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.panama-text {
+    line-height: 28px;
+}
+
+.panama-h4 {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.panama-h1 {
+    font-size: 40px;
+}
+
+/* Founder of Crypto Legal Panama */
+.Founder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Founder-chlid {
+    width: 95%;
+    display: flex;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+
+
+.founder-image {
+    height: 92vh;
+}
+
+.founder-main {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.founder-text-h4 {
+    color: #373737;
+    font-family: lato;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.founder-text-h1 {
+    color: #6A1B9A;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.founder-text-p {
+    color: #333333;
+    font-size: 16.5px;
+    font-weight: 100;
+    font-family: lato;
+}
+
+.founder-button-parent {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 0 0 27px;
+}
+
+.founder-button {
+    background: #6A1B9A;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+
+}
+
+/* Join us on your journey */
+.journey-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.journey-card {
+    width: 95%;
+    background: url(svgs/CTA.png) no-repeat center center;
+    background-size: cover;
+    font-family: Raleway;
+    border-radius: 65px;
+    padding: 4rem 0;
+}
+
+.journey-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    /* padding: 20px 0; */
+}
+
+.journey-h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    font-family: Raleway;
+}
+
+.journey-p {
+    width: 50%;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    font-family: lato;
+}
+
+.journey-button-main{
+    display: flex;
+    gap: 30px;
+}
+
+.journey-button {
+    font-size: 18px;
+    line-height: 21.6px;
+    background: #6A1B9A;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-family: lato;
+}
+
+/* EXPLORE OUR COLLECTION OF RESOURCES */
+.explore {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.explore-child {
+    width: 95%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+
+.explore-content {
+    width: 50%;
+    display: flex;
+    background: #F3F3F3;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.explore-h5 {
+    color: #333333;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.explore-h1 {
+    color: #6A1B9A;
+    font-family: Raleway;
+    font-size: 40px;
+}
+
+.explore-p {
+    color: #333333;
+    font-size: 18px;
+    font-family: lato;
+    display: flex;
+    gap: 10px;
+}
+
+.explore-image {
+    width: 50%;
+}
+
+.explore-button {
+    background: #6A1B9A;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 20px;
+}
+
+
+/* footer */
+.footer {
+    width: 100%;
+}
+
+.footer-child {
+    width: 100%;
+    background: #373737;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.footer-logo {
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    font-family: lato;
+    gap: 1rem;
+    color: white;
+}
+
+.footer-list {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header-child {
+        width: 95%;
+    }
+
+    .header-logo {
+        width: 50%;
+    }
+
+    .header-content {
+        display: none;
+    }
+
+
+    .cryptolegal {
+        height: 50vh;
+    }
+
+    .cryptolegal-chlid {
+        width: 95%;
+        height: none;
+    }
+
+    .cryptolegal-h1 {
+        font-size: 15px;
+        width: 90%;
+
+    }
+
+    .cryptolegal-h3 {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .cryptolegal-buttons {
+        padding: 10px 30px;
+        border: transparent;
+
+    }
+
+    .cryptolegal-button {
+       display: none;
+    }
+
+    .cryptolegal-image {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    /* section end */
+    .Cryptocurrency-chlid {
+        width: 95%;
+        padding: 4rem 1rem;
+    }
+
+    .cryptocurrency-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cryptolegal-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cryptocurrency-content {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .cryptocurrency-h2 {
+        width: 60%;
+    }
+
+    .cryptocurrency-p {
+      font-size: 17px;
+      padding: 1rem 0;
+    }
+
+    .cryptocurrency-button {
+        display: none;
+    }
+
+    /* section end */
+
+    .panama {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panama-child {
+        width: 90%;
+        gap: 20px;
+        padding: 3rem 1rem;
+    }
+
+    .panama-main-h4 {
+        font-size: 20px;
+        font-weight: 300;
+
+    }
+
+    .panama-main-h1 {
+        font-size: 27px;
+    }
+
+    .panama-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .panama-c1 {
+        padding: 10px;
+        gap: 1rem;
+    }
+
+    .panama-card-desc {
+        font-size: 12px;
+    }
+
+    .card-button {
+       display: none;
+    }
+
+    .panama-content {
+        width: 90%;
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        padding: 0.5rem 1rem;
+    }
+    .panama-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+
+    .panama-card-heading h1 {
+        font-size: 15px;
+    }
+
+    .panama-text {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .panama-h4 {
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    .panama-h1 {
+        font-size: 30px;
+    }
+
+    /* section end */
+
+    .Founder {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .Founder-chlid {
+        width: 95%;
+        display: inline;
+        padding: 0;
+        gap: 1rem;
+    }
+    
+    
+    .founder-image {
+        height: 88vh;
+        padding: 10px 0;
+    }
+    
+    .founder-main {
+        width: 100%;
+        padding: 1rem 0;
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .founder-text-h4 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .founder-text-h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .founder-text-p {
+        font-size: 15px;
+        font-weight: 100;
+        width: 100%;
+    }
+    
+    .founder-button-parent {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem 0 0 3rem;
+        justify-content: center;
+    }
+    
+    .founder-button {
+        border-style: none;
+        border-radius: 10px;
+        padding: 12px 25px;
+    }
+
+    /* section end */
+
+    .journey-parent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    
+    .journey-card {
+        width: 90%;
+        padding:1rem 0;
+        border-radius: 40px;
+    }
+    
+    .journey-content {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        padding: 20px 0;
+    }
+    
+    .journey-h1 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    .journey-p {
+        width: 90%;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20.6px;
+    }
+    
+    .journey-button {
+        font-size: 12px;
+        line-height: 2.6px;
+        border-radius: 5px;
+        border: none;
+        padding: 18px 32px;
+    }
+
+    /* section end */
+    
+    .explore-child {
+        width: 95%;
+        padding: 1rem 0;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
+    }
+    
+    .explore-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 3rem 1rem;
+    }
+    
+    .explore-h5 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .explore-h1 {
+        font-size: 38px;
+    }
+    
+    .explore-p {
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+    
+    .explore-image {
+        width: 100%;
+    }
+
+    .explore-button {
+        display: none;
+    }
+
+    /* section end */
+
+    .footer {
+        width: 100%;
+    }
+    
+    .footer-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 1rem 0;
+    }
+    .footer-logo-main{
+        width: 50%;
+    }
+    
+    .footer-logo {
+        width: 100%;
+    }
+    
+    .footer-content {
+        display: flex;
+        gap: 3rem;
+    
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .header-child {
+        width: 95%;
+    }
+
+    .header-logo {
+        width: 50%;
+    }
+
+    .header-content {
+        display: none;
+    }
+
+
+    .cryptolegal {
+        height: 50vh;
+    }
+
+    .cryptolegal-chlid {
+        width: 85%;
+        height: none;
+    }
+
+    .cryptolegal-h1 {
+        font-size: 20px;
+        width: 90%;
+
+    }
+
+    .cryptolegal-h3 {
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    .cryptolegal-buttons {
+        padding: 10px 30px;
+        border: transparent;
+
+    }
+
+    .cryptolegal-button {
+       display: inline;
+       background: transparent;
+       border: none;
+    }
+
+    .cryptolegal-image {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    /* section end */
+    .Cryptocurrency-chlid {
+        width: 85%;
+        padding: 2rem 1rem;
+    }
+
+    .cryptocurrency-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cryptolegal-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cryptocurrency-content {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .cryptocurrency-h2 {
+        width: 60%;
+    }
+
+    .cryptocurrency-p {
+      font-size: 17px;
+      padding: 1rem 0;
+    }
+
+    .cryptocurrency-button {
+        display: none;
+    }
+
+    /* section end */
+
+    .panama {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panama-child {
+        width: 95%;
+        gap: 20px;
+        padding: 3rem 1rem;
+    }
+
+    .panama-main-h4 {
+        font-size: 20px;
+        font-weight: 300;
+
+    }
+
+    .panama-main-h1 {
+        font-size: 27px;
+    }
+
+    .panama-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .panama-c1 {
+        padding: 10px;
+        gap: 1rem;
+    }
+
+    .panama-card-desc {
+        font-size: 12px;
+    }
+
+    .card-button {
+       display: none;
+    }
+
+    .panama-content {
+        width: 95%;
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        padding: 0.5rem 1rem;
+    }
+    .panama-txt {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+
+    .panama-card-heading h1 {
+        font-size: 15px;
+    }
+
+    .panama-text {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .panama-h4 {
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    .panama-h1 {
+        font-size: 30px;
+    }
+
+    /* section end */
+
+    .Founder {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .Founder-chlid {
+        width: 85%;
+        display: inline;
+        padding: 0;
+        gap: 1rem;
+    }
+    
+    
+    .founder-image {
+        height: 88vh;
+        padding: 10px 0;
+    }
+    
+    .founder-main {
+        width: 100%;
+        padding: 1rem 0;
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .founder-text-h4 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .founder-text-h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .founder-text-p {
+        font-size: 15px;
+        font-weight: 100;
+        width: 100%;
+    }
+    
+    .founder-button-parent {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem 0 0 3rem;
+        justify-content: center;
+    }
+    
+    .founder-button {
+        border-style: none;
+        border-radius: 10px;
+        padding: 12px 25px;
+    }
+
+    /* section end */
+
+    .journey-parent {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    
+    .journey-card {
+        width: 85%;
+        padding:1rem 0;
+        border-radius: 40px;
+    }
+    
+    .journey-content {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        padding: 20px 0;
+    }
+    
+    .journey-h1 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    
+    .journey-p {
+        width: 90%;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20.6px;
+    }
+    
+    .journey-button {
+        font-size: 12px;
+        line-height: 2.6px;
+        border-radius: 5px;
+        border: none;
+        padding: 18px 32px;
+    }
+
+    /* section end */
+    
+    .explore-child {
+        width: 85%;
+        padding: 1rem 0;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
+    }
+    
+    .explore-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 3rem 1rem;
+    }
+    .explore{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        padding: 0 5rem
+    }
+    
+    .explore-h5 {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .explore-h1 {
+        font-size: 38px;
+    }
+    
+    .explore-p {
+        font-size: 14px;
+        line-height: 24px;
+       
+    }
+    
+    .explore-image {
+        width: 95%;
+    }
+
+    .explore-button {
+        display: none;
+    }
+
+    /* section end */
+
+    .footer {
+        width: 100%;
+    }
+    
+    .footer-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 1rem 0;
+    }
+    .footer-logo-main{
+        width: 50%;
+    }
+    
+    .footer-logo {
+        width: 100%;
+    }
+    
+    .footer-content {
+        display: flex;
+        gap: 3rem;
+    
+    }
+
+}
