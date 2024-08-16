@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP-Conformation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="max-width: 640px">
+      <tr>
+        <td>
+          <table style="border-spacing: 0">
+            <!-- logo -->
+            <tr>
+              <td>
+                <img
+                  src="/assets/otp-logo.png"
+                  alt="logo"
+                  style="max-width: 100%;
+                  padding-top: 1.5rem;"
+                  
+                />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; padding: 2rem 0"></td>
+            </tr>
+          </table>
+
+          <!-- Details -->
+          <table style="width: 90%">
+            <tr>
+              <td
+                style="
+                  background-color: rgba(249, 249, 249, 1);
+                  border-radius: 14px;
+                "
+              >
+                <table style="width: 100%; padding: 20px 0; border-spacing: 0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 24px;
+                        line-height: 32px;
+                        padding-bottom: 1rem;
+                        padding: 10px 15px;
+                      "
+                    >
+                      Hey Tom,
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        line-height: 22px;
+                        padding-bottom: 1rem;
+                        padding: 0 15px;
+                      "
+                    >
+                      Here is your One Time Password (OTP). <br />
+                      Please enter this code to verify your email address for
+                      LawnOlu.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: center; padding: 2rem 0"></td>
+                  </tr>
+                  <!-- small box number -->
+
+                  <tr>
+                    <td>
+                      <table style="width: 85%;">
+                        <tr>
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                          <!-- box 2 -->
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                          <!-- box 3 -->
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                          <!-- box 4 -->
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                          <!-- box 5 -->
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                          <!-- box 6 -->
+                          <td>
+                            <input
+                              type="text"
+                              maxlength="1"
+                              oninput="this.value=this.value.replace(/[^0-9]/g,'');"
+                              style="
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: black;
+                                border: 1px solid black;
+                                border-radius: 8px;
+                                width: 50px;
+                                height: 45px;
+                                text-align: center;
+                              "
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- OTP will expire in 5 minutes. -->
+                      <table style="width: 100%;">
+                        <tr>
+                          <td
+                            style="
+                              font-size: 14px;
+                              font-weight: 400;
+                              line-height: 22px;
+                              padding: 30px 15px;
+                            "
+                          >
+                            OTP will expire in
+                            <span style="font-size: 14px; font-weight: 600"
+                              >5 minutes.</span
+                            >
+                          </td>
+                          <tr>
+                            <td style="text-align: center; "></td>
+                          </tr>
+                        </tr>
+                      </table>
+                      <!-- Best Regards, -->
+                      <table style="width: 95%;">
+                        <tr>
+                          <td style="font-size: 14px; font-weight: 400; line-height: 22px;">Best Regards,</td>
+                        </tr>
+                        <tr>
+                          <td style="padding: 2px 0;"></td>
+                        </tr>
+                        <tr>
+                          <td style="font-size: 14px; font-weight: 600; line-height: 22px;">LawnOlu Team.</td>
+                        </tr>
+                      </table>
+                      
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+           <!-- Footer -->
+      <tr>
+        <td
+          style="background-color: #ffffff; text-align: center; width: 100%"
+        >
+          <table style="width: 90%">
+            <tr>
+              <td
+                style="
+                  align-items: center;
+                  word-spacing: 15px;
+                  padding: 10px 0;
+                "
+              >
+                <a
+                  href="https://www.facebook.com/"
+                  style="text-decoration: none"
+                >
+                  <img src="/assets/facebook black.1.svg" alt="Facebook" />
+                </a>
+                <a
+                  href="https://www.twitter.com/"
+                  style="text-decoration: none"
+                >
+                  <img src="/assets/Twitter.svg" alt="Twitter" />
+                </a>
+                <a
+                  href="https://www.youtube.com/"
+                  style="text-decoration: none"
+                >
+                  <img src="/assets/youtube black.svg" alt="Youtube" />
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  style="text-decoration: none"
+                >
+                  <img src="/assets/Instagram black.svg" alt="Instragram" />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  text-align: center;
+                  margin: 0;
+                  font-size: 10px;
+                  line-height: 12px;
+                  font-weight: 400;
+                  padding: 15px 0;
+                "
+              >
+                © 2024 LawnOlu. All rights reserved.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <hr />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td
+                      style="
+                        width: 100%;
+                        text-align: center;
+                        font-size: 11px;
+                        line-height: 14.3px;
+                        font-weight: 400;
+                        padding: 0 0 10px 0;
+                      "
+                    >
+                      You are receiving this mail because you registered to
+                      join the LawnOlu platform as a user. This also shows
+                      that you agree to our Terms of use and Privacy
+                      Policies. If you no longer want to receive mails from
+                      us, click the unsubscribe link below to unsubscribe.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        text-decoration: none;
+                        color: rgba(51, 51, 51, 1);
+                      "
+                    >
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              font-size: 10px;
+                              line-height: 12px;
+                              font-weight: 400;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: rgba(51, 51, 51, 1);
+                              "
+                            >
+                              <li>Privacy policy</li>
+                            </a>
+                          </td>
+                          <td
+                            style="
+                              font-size: 10px;
+                              line-height: 12px;
+                              font-weight: 400;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: rgba(51, 51, 51, 1);
+                              "
+                            >
+                              <li>Terms of service</li>
+                            </a>
+                          </td>
+                          <td
+                            style="
+                              font-size: 10px;
+                              line-height: 12px;
+                              font-weight: 400;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: rgba(51, 51, 51, 1);
+                              "
+                            >
+                              <li>Contact</li>
+                            </a>
+                          </td>
+                          <td
+                            style="
+                              font-size: 10px;
+                              line-height: 12px;
+                              font-weight: 400;
+                            "
+                          >
+                            <a
+                              href="#"
+                              style="
+                                text-decoration: none;
+                                color: rgba(51, 51, 51, 1);
+                              "
+                            >
+                              <li>Unsubscribe</li>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
